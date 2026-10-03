@@ -327,11 +327,17 @@ color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    background: #172554;
+    transition: 0.5s;
 }
 #description-trips {
     animation: heroAppear 1s ease-out forwards;
 }
-
+#contact-form button:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
 @keyframes heroAppear {
     from {
         opacity: 0;
@@ -460,4 +466,16 @@ color: white;
     .story-content p {
         font-size: 17px;
     }
+}
+.contact-inp textarea{
+    border-radius: 10px;
+   width: 100%;
+   height: 120px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.contact-inp textarea:hover{
+    background: #172554;
+    color: white;
+    cursor: pointer;
 }

@@ -28,7 +28,7 @@
         <h1>Contact <i class="fa-solid fa-address-book"></i></h1>
 
         <form id="contact-form"
-              action="https://formspree.io/f/xgaezjak"
+              action="https://formspree.io/f/xqpklvkr"
               method="POST">
 
             <label>
@@ -37,6 +37,7 @@
 
             <input type="text"
                    id="user"
+                   name="username"
                    placeholder="Ivan Ivanov"
                    required>
 
@@ -47,6 +48,7 @@
 
             <input type="tel"
                    id="num"
+                   name="phone"
                    placeholder="+800 00000 0000"
                    required>
 
@@ -57,10 +59,11 @@
 
             <input type="email"
                    id="email"
+                   name="email"
                    placeholder="registrationform@gmail.com"
                    required>
 
-
+            <textarea name="message" id="mes" placeholder="Enter message"></textarea>
             <button type="submit">
                 Send <i class="fa-sharp fa-solid fa-arrow-up-from-bracket"></i>
             </button>
@@ -69,6 +72,6 @@
 
     </div>
 </div>
-</body>
 <script src="inputs.js"></script>
+</body>
 </html>
