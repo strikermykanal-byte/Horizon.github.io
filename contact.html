@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <section id="trips-section">
+           <nav>
+        <div class="logo"><img src="images/logo-removebg-preview.png" alt="logo"></div>
+        <ul>
+            <li><a href="index.html">Home <i class="fa-solid fa-house"></i></a></li>
+            <li><a href="places.html">Places <i class="fa-sharp-duotone fa-solid fa-earth-americas"></i></a></li>
+            <li><a href="about.html">About us <i class="fa-solid fa-circle-info"></i></a></li>
+            <li><a href="contact.html">Contact <i class="fa-solid fa-address-book"></i></a></li>
+        </ul>
+    </nav>
+    </section>
+    <div class="container">
+    <div class="contact-inp">
+
+        <h1>Contact <i class="fa-solid fa-address-book"></i></h1>
+
+        <form id="contact-form"
+              action="https://formspree.io/f/xgaezjak"
+              method="POST">
+
+            <label>
+                Username <i class="fa-solid fa-circle-user"></i>
+            </label>
+
+            <input type="text"
+                   id="user"
+                   placeholder="Ivan Ivanov"
+                   required>
+
+
+            <label>
+                Number <i class="fa-solid fa-square-phone"></i>
+            </label>
+
+            <input type="tel"
+                   id="num"
+                   placeholder="+800 00000 0000"
+                   required>
+
+
+            <label>
+                E-mail <i class="fa-jelly-fill fa-regular fa-envelope"></i>
+            </label>
+
+            <input type="email"
+                   id="email"
+                   placeholder="registrationform@gmail.com"
+                   required>
+
+
+            <button type="submit">
+                Send <i class="fa-sharp fa-solid fa-arrow-up-from-bracket"></i>
+            </button>
+
+        </form>
+
+    </div>
+</div>
+</body>
+<script src="inputs.js"></script>
+</html>
