@@ -1,0 +1,53 @@
+#trips-section {
+width: 100%;
+background: none;
+
+}
+#hero{
+    text-align: center;
+    padding: 100px 20px;
+}
+#hero h1{
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    color: white;
+}
+#hero p{
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+}
+#hero a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    background: gray;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+#hero a:hover {
+    background: black;
+    color: white;
+}
+#description-trips {
+    animation: heroAppear 1s ease-out forwards;
+}
+body{
+    min-height: 100vh;
+    background-image: url(background/mountbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

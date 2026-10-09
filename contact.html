@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="icon/icon.png">
     <title>Contact</title>
 </head>
 <body>
     <section id="trips-section">
            <nav>
-        <div class="logo"><img src="images/logo-removebg-preview.png" alt="logo"></div>
+                <div class="logo"><img src="icon/logo3-Photoroom.png" alt="logo"></div>
+                <div class="signup-form">
+            <a href="signup.html"><i class="fa-sharp fa-solid fa-arrow-right-to-bracket"></i> Sign Up</a>
+            <a href="profile.html" <i class="fa-sharp fa-solid fa-arrow-right-to-bracket"></i> <span id="username"> Profile</span>  ></a>
+        </div>
         <ul>
             <li><a href="index.html">Home <i class="fa-solid fa-house"></i></a></li>
             <li><a href="places.html">Places <i class="fa-sharp-duotone fa-solid fa-earth-americas"></i></a></li>
@@ -62,7 +68,7 @@
                    name="email"
                    placeholder="registrationform@gmail.com"
                    required>
-
+                <label>Message <i class="fa-regular fa-comment-dots"></i></label>
             <textarea name="message" id="mes" placeholder="Enter message"></textarea>
             <button type="submit">
                 Send <i class="fa-sharp fa-solid fa-arrow-up-from-bracket"></i>
@@ -72,6 +78,7 @@
 
     </div>
 </div>
+<script src="profile.js"></script>
 <script src="inputs.js"></script>
 </body>
 </html>
